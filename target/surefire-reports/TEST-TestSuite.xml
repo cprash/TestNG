@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.878" tests="19" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Rahul_Sharma7\IdeaProjects\JavaIncubation\TestNG\target\test-classes;C:\Users\Rahul_Sharma7\IdeaProjects\JavaIncubation\TestNG\target\classes;C:\Users\Rahul_Sharma7\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Rahul_Sharma7\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Rahul_Sharma7\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\RAHUL_~1\AppData\Local\Temp\surefire15535833726511442162\surefirebooter11563088641301758259.jar C:\Users\Rahul_Sharma7\AppData\Local\Temp\surefire15535833726511442162 2024-03-08T02-03-57_452-jvmRun1 surefire9912252806954055300tmp surefire_010365574997902022182tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Rahul_Sharma7\IdeaProjects\JavaIncubation\TestNG\target\test-classes;C:\Users\Rahul_Sharma7\IdeaProjects\JavaIncubation\TestNG\target\classes;C:\Users\Rahul_Sharma7\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Rahul_Sharma7\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Rahul_Sharma7\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Rahul_Sharma7\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Rahul_Sharma7"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Rahul_Sharma7\IdeaProjects\JavaIncubation\TestNG"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\RAHUL_~1\AppData\Local\Temp\surefire15535833726511442162\surefirebooter11563088641301758259.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="user.name" value="Rahul_Sharma7"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Rahul_Sharma7\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAHUL_~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.1"/>
+    <property name="java.version" value="11.0.15.1"/>
+    <property name="user.dir" value="C:\Users\Rahul_Sharma7\IdeaProjects\JavaIncubation\TestNG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21\bin;C:\Program Files\nodejs\;C:\Users\Rahul_Sharma7\AppData\Local\Android\Sdk\platform-tools;C:\Users\Rahul_Sharma7\AppData\Local\Android\Sdk\platform-tools;C:\Users\Rahul_Sharma7\AppData\Local\Android\Sdk\tools;C:\Users\Rahul_Sharma7\AppData\Local\Android\Sdk\tools\bin;C:\Users\Rahul_Sharma7\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\Rahul_Sharma7\AppData\Local\Microsoft\WindowsApps;C:\Users\Rahul_Sharma7\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rahul_Sharma7\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="addTest" classname="org.testng.hometasks.AdditionTests" time="0"/>
+  <testcase name="addTest" classname="org.testng.hometasks.AdditionTests" time="0"/>
+  <testcase name="paramAddTest" classname="org.testng.hometasks.AdditionTests" time="0.018">
+    <failure message="&#10;Parameter &apos;numbers&apos; is required by @Test on method paramAddTest but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramAddTest but has not been marked @Optional or defined
+
+</failure>
+    <system-out><![CDATA[Executed test addTest==>> Thread : main
+]]></system-out>
+  </testcase>
+  <testcase name="cubeTest" classname="org.testng.hometasks.AdvancedTests" time="0"/>
+  <testcase name="paramCubeTest" classname="org.testng.hometasks.AdvancedTests" time="0">
+    <failure message="&#10;Parameter &apos;singleNumber&apos; is required by @Test on method paramCubeTest but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'singleNumber' is required by @Test on method paramCubeTest but has not been marked @Optional or defined
+
+</failure>
+    <system-out><![CDATA[Executed test cubeTest==>> Thread : main
+]]></system-out>
+  </testcase>
+  <testcase name="paramSquareRootTest" classname="org.testng.hometasks.AdvancedTests" time="0">
+    <failure message="&#10;Parameter &apos;singleNumber&apos; is required by @Test on method paramSquareRootTest but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'singleNumber' is required by @Test on method paramSquareRootTest but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="paramSquareTest" classname="org.testng.hometasks.AdvancedTests" time="0">
+    <failure message="&#10;Parameter &apos;singleNumber&apos; is required by @Test on method paramSquareTest but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'singleNumber' is required by @Test on method paramSquareTest but has not been marked @Optional or defined
+
+</failure>
+  </testcase>
+  <testcase name="squareRootTest" classname="org.testng.hometasks.AdvancedTests" time="0"/>
+  <testcase name="squareTest" classname="org.testng.hometasks.AdvancedTests" time="0"/>
+  <testcase name="divideByZeroTest" classname="org.testng.hometasks.DivisionTests" time="0.001"/>
+  <testcase name="divisionTest" classname="org.testng.hometasks.DivisionTests" time="0"/>
+  <testcase name="divisionTest" classname="org.testng.hometasks.DivisionTests" time="0"/>
+  <testcase name="paramDivisionTest" classname="org.testng.hometasks.DivisionTests" time="0">
+    <failure message="&#10;Parameter &apos;numbers&apos; is required by @Test on method paramDivisionTest but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramDivisionTest but has not been marked @Optional or defined
+
+</failure>
+    <system-out><![CDATA[Executed test divisionTest==>> Thread : main
+]]></system-out>
+  </testcase>
+  <testcase name="multiplyTest" classname="org.testng.hometasks.MultiplicationTests" time="0"/>
+  <testcase name="multiplyTest" classname="org.testng.hometasks.MultiplicationTests" time="0"/>
+  <testcase name="paramMulitplyTest" classname="org.testng.hometasks.MultiplicationTests" time="0">
+    <failure message="&#10;Parameter &apos;numbers&apos; is required by @Test on method paramMulitplyTest but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramMulitplyTest but has not been marked @Optional or defined
+
+</failure>
+    <system-out><![CDATA[Executed test multiplyTest==>> Thread : main
+]]></system-out>
+  </testcase>
+  <testcase name="paramSubtractTest" classname="org.testng.hometasks.SubtractionTests" time="0.002">
+    <failure message="&#10;Parameter &apos;numbers&apos; is required by @Test on method paramSubtractTest but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramSubtractTest but has not been marked @Optional or defined
+
+</failure>
+    <system-out><![CDATA[::::::Executed all tests in Class MultiplicationTests
+::::::Starting tests in Class SubtractionTests
+]]></system-out>
+  </testcase>
+  <testcase name="subtractTest" classname="org.testng.hometasks.SubtractionTests" time="0"/>
+  <testcase name="subtractTest" classname="org.testng.hometasks.SubtractionTests" time="0"/>
+</testsuite>

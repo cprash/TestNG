@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.testng.hometasks.SubtractionTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="paramSubtractTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.testng.hometasks.SubtractionTests -->
+      <class name="org.testng.hometasks.AdditionTests">
+        <methods>
+          <include name="paramAddTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.testng.hometasks.AdditionTests -->
+      <class name="org.testng.hometasks.DivisionTests">
+        <methods>
+          <include name="paramDivisionTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.testng.hometasks.DivisionTests -->
+      <class name="org.testng.hometasks.AdvancedTests">
+        <methods>
+          <include name="paramCubeTest"/>
+          <include name="beforeClass"/>
+          <include name="paramSquareTest"/>
+          <include name="paramSquareRootTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.testng.hometasks.AdvancedTests -->
+      <class name="org.testng.hometasks.MultiplicationTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="paramMulitplyTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.testng.hometasks.MultiplicationTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

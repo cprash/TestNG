@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.878 s <<< FAILURE! - in TestSuite
+paramAddTest(org.testng.hometasks.AdditionTests)  Time elapsed: 0.018 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramAddTest but has not been marked @Optional or defined
+
+
+paramCubeTest(org.testng.hometasks.AdvancedTests)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'singleNumber' is required by @Test on method paramCubeTest but has not been marked @Optional or defined
+
+
+paramSquareRootTest(org.testng.hometasks.AdvancedTests)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'singleNumber' is required by @Test on method paramSquareRootTest but has not been marked @Optional or defined
+
+
+paramSquareTest(org.testng.hometasks.AdvancedTests)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'singleNumber' is required by @Test on method paramSquareTest but has not been marked @Optional or defined
+
+
+paramDivisionTest(org.testng.hometasks.DivisionTests)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramDivisionTest but has not been marked @Optional or defined
+
+
+paramMulitplyTest(org.testng.hometasks.MultiplicationTests)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramMulitplyTest but has not been marked @Optional or defined
+
+
+paramSubtractTest(org.testng.hometasks.SubtractionTests)  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'numbers' is required by @Test on method paramSubtractTest but has not been marked @Optional or defined
+
+

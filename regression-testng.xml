@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CalculatorSuite" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="org.testng.hometasks.listeners.CalculatorAnnotaionTransformer"/>
+    </listeners>
+    <parameter name="numbers" value="10&amp;2"/>
+    <parameter name="singleNumber" value="2"/>
+    <test verbose="2" preserve-order="true" name="CalculatorTests">
+        <classes>
+            <class name="org.testng.hometasks.AdditionTests"/>
+            <class name="org.testng.hometasks.SubtractionTests"/>
+            <class name="org.testng.hometasks.MultiplicationTests"/>
+            <class name="org.testng.hometasks.DivisionTests"/>
+            <class name="org.testng.hometasks.AdvancedTests"/>
+        </classes>
+    </test>
+</suite>

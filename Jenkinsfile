@@ -6,9 +6,18 @@ pipeline {
 		git([url: 'https://github.com/frusteee/TestNG.git', branch: 'main', credentialsId: '7050e0cd-7029-485c-b583-ffa088320d9e'])
       }
     }
+	
+	stage('Set Maven Env') {
+		steps{
+		echo 'Setiing up Maven'
+		script{
+		env.PATH = 'C:/apache-maven-3.8.5/bin;c:\\Windows\\System32'
+		}
+		}
+	}
 
     stage('Initialize Suites') {
-      parallel {
+		parallel {
         stage('RunRegression') {
           steps {
             bat 'mvn test -P Regression'

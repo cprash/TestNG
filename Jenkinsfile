@@ -3,11 +3,11 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-		git([url: 'https://github.com/frusteee/spring-petclinic.git', branch: 'main', credentialsId: '7050e0cd-7029-485c-b583-ffa088320d9e'])
+		git([url: 'https://github.com/frusteee/TestNG.git', branch: 'main', credentialsId: '7050e0cd-7029-485c-b583-ffa088320d9e'])
       }
     }
 
-    stage('RunRegression') {
+    stage('Initialize Suites') {
       parallel {
         stage('RunRegression') {
           steps {
